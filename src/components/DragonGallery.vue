@@ -21,10 +21,54 @@
         data: function () {
             return {
                 images: [
-                    'https://dummyimage.com/800/ffffff/000000',
-                    'https://dummyimage.com/1600/ffffff/000000',
-                    'https://dummyimage.com/1280/000000/ffffff',
-                    'https://dummyimage.com/400/000000/ffffff',
+                    {
+                        title: 'The Cookie Dragon',
+                        href: 'images/commission___baby_dragon_by_raizy-d6xqz3x.png',
+                        description: 'Original Commission from Chu. And most of these images are from Chu.'
+                    },
+                    {
+                        title: 'The Cookie Dragon',
+                        href: 'images/9-judah.png',
+                    },
+                    'images/chu_dragon_April_2016.png',
+                    {
+                        title: 'Cookie Dragon',
+                        href: 'images/dragon1Apple.png',
+                        description: 'Commissioned from Appledapple!'
+                    },
+                    {
+                        title: 'Christmas Cookie Dragon',
+                        href: 'images/dragonChristmas.png',
+                        description: 'Commissioned from Appledapple!'
+                    },
+                    {
+                        title: 'Old Cookie Dragon Games Logo',
+                        href: 'images/cookieDragonGames_RGB.png',
+                        description: 'The old logo for my game stuff'
+                    },
+                    {
+                        title: 'Halloween Cookie Dragon',
+                        href: 'images/holloweenDragon.png',
+                        description: 'Dragon dressed as a charmander for halloween'
+                    },
+                    'images/judah4-christmas_cookie_dragon.png',
+                    {
+                        title: 'Sleeping Dragon',
+                        href: 'images/judah4---sleeping-dragon-animation.gif',
+                        description: 'Animated sleeping dragon. Very tired.'
+                    },
+                    {
+                        title: 'ZZZ... Dragon',
+                        href: 'images/UpsideDownDragon.jpg',
+                        description: 'The dragon is even more tired.'
+                    },
+                    'images/judah-circle_dragon.png',
+                    {
+                        title: 'Cookie Dragon Games Logo',
+                        href: 'images/CookieDragon2_Color.png',
+                        description: 'The logo for my single person game studio!'
+                    },
+
                 ],
                 index: null
             };
