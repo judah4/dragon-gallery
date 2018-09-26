@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <gallery :images="images" :index="index" @close="index = null"></gallery>
         <div
                 class="image"
@@ -79,8 +79,15 @@
 </script>
 
 <style scoped>
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .image {
-        float: left;
+
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
