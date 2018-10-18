@@ -68,6 +68,11 @@
                         href: 'images/CookieDragon2_Color.png',
                         description: 'The logo for my single person game studio!'
                     },
+                    {
+                        title: 'Lineless Icon',
+                        href: 'images/2018/10_12_1judahlineless.png',
+                        description: 'Icon from @faunbutt'
+                    },
 
                 ],
                 index: null
