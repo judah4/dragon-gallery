@@ -12,7 +12,7 @@ yarn run serve
 
 ### Compiles and minifies for production
 ```
-docker build -t judah4/dragon-gallery .
+docker build -t judah4/dragon-gallery:latest -t judah4/dragon-gallery:1.1.0 .
 ```
 
 ### Run production
