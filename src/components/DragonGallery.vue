@@ -73,6 +73,11 @@
                         href: 'images/2018/10_12_1judahlineless.png',
                         description: 'Icon from @faunbutt'
                     },
+                    {
+                        title: 'Neon Badge',
+                        href: 'images/2019/1-JudahNeonBadge.jpg',
+                        description: 'Badge from https://twitter.com/Lumaberry'
+                    },
 
                 ],
                 index: null
