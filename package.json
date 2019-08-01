@@ -8,14 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17",
-    "vue-gallery": "^1.4.0"
+    "vue": "2.6.10",
+    "vue-gallery": "2.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.4",
-    "@vue/cli-plugin-eslint": "^3.0.4",
-    "@vue/cli-service": "^3.0.4",
-    "vue-template-compiler": "^2.5.17"
+    "@vue/cli-plugin-babel": "3.9.2",
+    "@vue/cli-plugin-eslint": "3.9.2",
+    "@vue/cli-service": "3.9.3",
+    "vue-template-compiler": "2.6.10"
   },
   "eslintConfig": {
     "root": true,
