@@ -31,6 +31,7 @@
                         href: 'images/9-judah.png',
                     },
                     'images/chu_dragon_April_2016.png',
+                    'images/chu_dragon_May_2016.png',
                     {
                         title: 'Cookie Dragon',
                         href: 'images/dragon1Apple.png',
