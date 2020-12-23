@@ -89,6 +89,11 @@
                         href: 'images/2020/frostDragonEmotes.jpg',
                         description: 'From https://twitter.com/Elegant_frost. March 2020'
                     },
+                    {
+                        title: 'Cookie Dragon With Cookies',
+                        href: 'images/2020/OtherEric_CookieDragon_Commish.png',
+                        description: 'From TheOtherEric. December 2020'
+                    },
 
                 ],
                 index: null
