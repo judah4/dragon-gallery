@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <h1>Dragons</h1>
-    <DragonGallery />
+    <router-link to="/">Home</router-link> <router-link to="/Feral">Feral</router-link> <router-link to="/Anthro">Anthro</router-link> 
+
+    <router-view></router-view>
+    
     <br/>
 
     <p>Images and references for my dragon. The Cookie Dragon</p>
@@ -16,13 +19,31 @@
 </template>
 
 <script>
-import DragonGallery from './components/DragonGallery.vue'
+    import VueRouter from 'vue-router'
+    import Home from '@/components/views/Home'
+    import Feral from '@/components/views/Feral'
+    import Anthro from '@/components/views/Anthro'
+    const Foo = { template: '<div>foo</div>' };
+    const Bar = { template: '<div>bar</div>' };
+
+    const routes = [
+        { path: '/', component: Home },
+        { path: '/feral', component: Feral },
+        { path: '/anthro', component: Anthro },
+        { path: '/foo', component: Foo },
+        { path: '/bar', component: Bar }
+    ];
+
+    const router = new VueRouter({
+        routes // short for `routes: routes`
+    });
 
 export default {
+  router,
   name: 'app',
   components: {
-      DragonGallery
-  }
+
+        }
 }
 </script>
 

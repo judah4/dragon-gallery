@@ -10,7 +10,8 @@
   "dependencies": {
     "core-js": "^3.8.1",
     "vue": "^2.6.12",
-    "vue-gallery": "^2.0.1"
+    "vue-gallery": "^2.0.1",
+    "vue-router": "^3.0.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.3.1",
