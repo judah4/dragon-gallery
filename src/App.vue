@@ -22,11 +22,13 @@
 
     import CookieDragon from '@/js/dragon.js'
     import Doggy from '@/js/dog.js'
+    import Fox from '@/js/fox.js'
 
     const routes = [
         { path: '/', component: Home },
         { path: '/dragon', component: CharacterSheet, props: { character: CookieDragon } },
         { path: '/dog', component: CharacterSheet, props: { character: Doggy } },
+        { path: '/fox', component: CharacterSheet, props: { character: Fox } },
     ];
 
     const router = new VueRouter({

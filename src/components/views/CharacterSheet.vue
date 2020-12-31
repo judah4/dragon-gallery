@@ -1,6 +1,5 @@
 <template>
 <div>
-  <p>{{character.Description}}</p>
     <p>{{character.Description}}</p>
     <DragonGallery :types="character.Types" :images="character.Images" />
 
