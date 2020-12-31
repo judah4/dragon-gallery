@@ -1,7 +1,7 @@
 
 export default {
     Name: "Untitled Fox",
-    Description: "A mischvious fox. male.",
+    Description: "A mischievous fox. Male.",
     Types: ["reference"],
     Images: [
         /*{
