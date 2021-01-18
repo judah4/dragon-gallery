@@ -24,12 +24,25 @@
     import Doggy from '@/js/dog.js'
     import Fox from '@/js/fox.js'
 
-    const routes = [
-        { path: '/', component: Home },
-        { path: '/dragon', component: CharacterSheet, props: { character: CookieDragon } },
-        { path: '/dog', component: CharacterSheet, props: { character: Doggy } },
-        { path: '/fox', component: CharacterSheet, props: { character: Fox } },
+    var characters = [CookieDragon, Doggy, Fox];
+
+  let routes = [
+        { path: '/', component: Home, props: { characters: characters } },
+        { path: CookieDragon.Route, component: CharacterSheet, props: { character: CookieDragon } },
+        
     ];
+
+  var devMode =process.env.NODE_ENV == "development";
+  if(devMode || !Doggy.Draft) {
+      routes.push({ path: Doggy.Route, component: CharacterSheet, props: { character: Doggy } });
+  }
+  if(devMode || !Fox.Draft) {
+      routes.push({ path: Fox.Route, component: CharacterSheet, props: { character: Fox } });
+  }
+
+    
+
+    
 
     const router = new VueRouter({
         routes // short for `routes: routes`

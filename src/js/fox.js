@@ -1,8 +1,10 @@
 
 export default {
     Name: "Untitled Fox",
+    Route: "/fox",
     Description: "A mischievous fox. Male.",
     Types: ["reference"],
+    draft: true,
     Images: [
         /*{
             title: 'Ref',

@@ -1,5 +1,7 @@
 <template>
 <div>
+    <p v-if="character.Draft" ><b>Draft</b></p>
+
     <p>{{character.Description}}</p>
     <DragonGallery :types="character.Types" :images="character.Images" />
 

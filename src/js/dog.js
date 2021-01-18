@@ -1,8 +1,10 @@
 
 export default {
     Name: "Untitled Dog",
+    Route: "/dog",
     Description: "The goodest girl!",
     Types: ["reference"],
+    Draft: true,
     Images: [
         /*{
             title: 'Ref',

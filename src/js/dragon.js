@@ -1,6 +1,7 @@
 
 export default {
     Name: "Foxis the Cookie Dragon",
+    Route: "/dragon",
     Description: "The Cookie Dragon, Judah's dragon self. Images and references for my dragon. The Cookie Dragon named Foxis",
     Types: ["feral", "anthro"],
     Images: [

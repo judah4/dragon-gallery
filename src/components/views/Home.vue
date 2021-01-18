@@ -1,13 +1,7 @@
 <template>
     <div class="container">
-      <div>
-        <router-link to="/dragon">The Cookie Dragon</router-link>
-      </div>
-      <div>
-        <router-link to="/fox">Untitled Fox</router-link>
-      </div>
-      <div>
-        <router-link to="/dog">Untitled Dog</router-link>
+      <div v-for="(character, index) in charFiltered" v-bind:key="index">
+        <router-link v-bind:to="character.Route">{{character.Name}}</router-link>
       </div>
     </div>
 </template>
@@ -20,6 +14,22 @@ export default {
   components: {
   },
   props: {
+    characters: Array
+  },
+  computed: {
+    charFiltered: function() {
+
+      var devMode =process.env.NODE_ENV == "development";
+      var filtered = [];
+
+      for(let cnt = 0; cnt < this.characters.length; cnt++) {
+        if(devMode || !this.characters[cnt].Draft) {
+          filtered.push(this.characters[cnt]);
+        }
+      }
+
+      return filtered;
+    }
   },
   data: function() {
     return {
