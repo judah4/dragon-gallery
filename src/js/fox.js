@@ -4,7 +4,7 @@ export default {
     Route: "/fox",
     Description: "A mischievous fox. Male.",
     Types: ["reference"],
-    draft: true,
+    Draft: true,
     Images: [
         /*{
             title: 'Ref',
