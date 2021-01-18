@@ -1,5 +1,11 @@
 <template>
-    <DragonGallery :types="dragonTypes" />
+<div>
+    <p v-if="character.Draft" ><b>Draft</b></p>
+
+    <p>{{character.Description}}</p>
+    <DragonGallery :types="character.Types" :images="character.Images" />
+
+</div>
 </template>
 
 <script>
@@ -7,15 +13,13 @@ import DragonGallery from '../DragonGallery.vue'
 
 
 export default {
-  name: 'Anthro',
+  name: 'CharacterSheet',
   components: {
       DragonGallery
   },
-  props: {
-  },
+  props: ['character'],
   data: function() {
     return {
-      dragonTypes: ['anthro'],
     }
   }
 }

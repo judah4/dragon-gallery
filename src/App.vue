@@ -1,13 +1,10 @@
 <template>
   <div id="app">
-    <h1>Dragons</h1>
-    <router-link to="/">Home</router-link> <router-link to="/Feral">Feral</router-link> <router-link to="/Anthro">Anthro</router-link> 
+    <h1><router-link to="/">Judah's Original Characters</router-link></h1>
 
     <router-view></router-view>
     
     <br/>
-
-    <p>Images and references for my dragon. The Cookie Dragon</p>
 
     <div>
       Twitter: <a href="https://twitter.com/dragonjudah" >@DragonJudah</a>
@@ -21,18 +18,31 @@
 <script>
     import VueRouter from 'vue-router'
     import Home from '@/components/views/Home'
-    import Feral from '@/components/views/Feral'
-    import Anthro from '@/components/views/Anthro'
-    const Foo = { template: '<div>foo</div>' };
-    const Bar = { template: '<div>bar</div>' };
+    import CharacterSheet from '@/components/views/CharacterSheet'
 
-    const routes = [
-        { path: '/', component: Home },
-        { path: '/feral', component: Feral },
-        { path: '/anthro', component: Anthro },
-        { path: '/foo', component: Foo },
-        { path: '/bar', component: Bar }
+    import CookieDragon from '@/js/dragon.js'
+    import Doggy from '@/js/dog.js'
+    import Fox from '@/js/fox.js'
+
+    var characters = [CookieDragon, Doggy, Fox];
+
+  let routes = [
+        { path: '/', component: Home, props: { characters: characters } },
+        { path: CookieDragon.Route, component: CharacterSheet, props: { character: CookieDragon } },
+        
     ];
+
+  var devMode =process.env.NODE_ENV == "development";
+  if(devMode || !Doggy.Draft) {
+      routes.push({ path: Doggy.Route, component: CharacterSheet, props: { character: Doggy } });
+  }
+  if(devMode || !Fox.Draft) {
+      routes.push({ path: Fox.Route, component: CharacterSheet, props: { character: Fox } });
+  }
+
+    
+
+    
 
     const router = new VueRouter({
         routes // short for `routes: routes`
