@@ -19,11 +19,11 @@ export default {
   computed: {
     charFiltered: function() {
 
-      var devMode =process.env.NODE_ENV == "development";
+      var devMode = process.env.NODE_ENV == "development";
       var filtered = [];
 
       for(let cnt = 0; cnt < this.characters.length; cnt++) {
-        if(devMode || !this.characters[cnt].Draft) {
+        if(devMode || (!this.characters[cnt].Draft && !this.characters[cnt].Unlisted ) ) {
           filtered.push(this.characters[cnt]);
         }
       }

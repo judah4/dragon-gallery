@@ -3,6 +3,11 @@
     <p v-if="character.Draft" ><b>Draft</b></p>
 
     <p>{{character.Description}}</p>
+    <ul>
+      <li v-for="(val, index) in character.Attributes" v-bind:key=index >
+        {{val.id}} - {{val.value}}
+      </li>
+    </ul>
     <DragonGallery :types="character.Types" :images="character.Images" />
 
 </div>
