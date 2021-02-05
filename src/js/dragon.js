@@ -2,7 +2,13 @@
 export default {
     Name: "Foxis the Cookie Dragon",
     Route: "/dragon",
-    Description: "The Cookie Dragon, Judah's dragon self. Images and references for my dragon. The Cookie Dragon named Foxis",
+    Description: "The Cookie Dragon, Judah's dragon self. Images and references for my dragon. The Cookie Dragon named Foxis. Has both Feral and Humanoid forms.",
+    Attributes: [
+        { id: "Gender", value: "Male" },
+        { id: "Age", value: "25" },
+        { id: "Height", value: "Big" },
+        { id: "Dragon", value: "Yes" },
+    ],
     FeaturedImage: '/images/2018/10_12_1judahlineless.png',
     Types: ["feral", "anthro"],
     Images: [
