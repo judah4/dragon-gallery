@@ -3,6 +3,7 @@ export default {
     Name: "Foxis the Cookie Dragon",
     Route: "/dragon",
     Description: "The Cookie Dragon, Judah's dragon self. Images and references for my dragon. The Cookie Dragon named Foxis",
+    FeaturedImage: '/images/2018/10_12_1judahlineless.png',
     Types: ["feral", "anthro"],
     Images: [
 

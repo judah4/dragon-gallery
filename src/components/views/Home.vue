@@ -19,7 +19,7 @@ export default {
   computed: {
     charFiltered: function() {
 
-      var devMode =process.env.NODE_ENV == "development";
+      var devMode = process.env.NODE_ENV == "development";
       var filtered = [];
 
       for(let cnt = 0; cnt < this.characters.length; cnt++) {
