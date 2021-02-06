@@ -2,11 +2,11 @@
 export default {
     Name: "Untitled Fox",
     Route: "/fox",
-    Description: "A mischievous fox. Male.",
+    Description: "A mischievous fox. Tall boy, likes Hoodies",
     Attributes: [
         { id: "Gender", value: "Male" },
         { id: "Age", value: "24" },
-        { id: "Height", value: "5ft 9in" },
+        { id: "Height", value: "6ft 5in" },
     ],
     Types: ["reference"],
     Draft: true,
