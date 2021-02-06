@@ -1,7 +1,7 @@
 <template>
 <div>
     <p v-if="character.Draft" ><b>Draft</b></p>
-
+    <h1>{{character.Name}}</h1>
     <p>{{character.Description}}</p>
     <ul>
       <li v-for="(val, index) in character.Attributes" v-bind:key=index >
