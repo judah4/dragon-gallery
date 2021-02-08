@@ -2,7 +2,7 @@
 export default {
     Name: "Untitled Dog",
     Route: "/dog",
-    Description: "The goodest girl! Decently tall, slightly on the chubbier side. Large chest, digitigrade feet, Somewhat fluffy, long snout, labrador mutt.",
+    Description: "The goodest girl! Decently height, slightly on the chubbier side. Large chest, digitigrade feet, Somewhat fluffy, long snout, labrador mutt.",
     Attributes: [
         { id: "Gender", value: "Female" },
         { id: "Age", value: "26" },
