@@ -1,6 +1,29 @@
 
 export default {
     Name: "Untitled Dog",
+    //name ideas
+    /*
+    Evelyn
+    Zoe
+    Madeline
+    Melody
+    Norah
+    Freya
+    Vera
+    Gwendolyn
+    */
+
+   //Last names
+    /*
+    Vincent
+    Vaughan
+    Torres
+    Cook
+    Ward
+    Fisher
+    Feld
+    Forst
+    */
     Route: "/dog",
     Description: "The goodest girl! Decently height, slightly on the chubbier side. Large chest, digitigrade feet, Somewhat fluffy, long snout, labrador mutt. She has a long fluffy tail. Color Markings TBD.",
     Attributes: [
@@ -13,13 +36,14 @@ export default {
     Types: ["reference"],
     Draft: false,
     Unlisted: true,
+    FeaturedImage: 'images/dog/2021/CD_Ref_Sheet_Color.png',
     Images: [
-        /*{
-            title: 'Ref',
-            href: 'images/commission___baby_dragon_by_raizy-d6xqz3x.png',
+        {
+            title: 'Ref Sheet',
+            href: 'images/dog/2021/CD_Ref_Sheet_Color.png',
             description: 'Character referece',
             type: "reference",
-        },*/
+        },
 
     ],
 };

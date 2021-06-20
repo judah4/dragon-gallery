@@ -1,6 +1,10 @@
 
 export default {
     Name: "Untitled Fox",
+    //name ideas
+    /*
+    Cecil
+    */
     Route: "/fox",
     Description: "A mischievous fox. Tall boy, likes Hoodies",
     Attributes: [
