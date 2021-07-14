@@ -1,6 +1,6 @@
 
 export default {
-    Name: "Untitled Dog",
+    Name: "Evelyn Feld",
     //name ideas
     /*
     Evelyn
