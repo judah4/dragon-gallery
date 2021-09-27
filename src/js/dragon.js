@@ -41,6 +41,12 @@ export default {
             type: "feral",
         },
         {
+            title: 'Birthday Dragon',
+            href: 'images/2017/chu_dragon_birthday_2017.jpg',
+            description: 'Commissioned from Chu!',
+            type: "feral",
+        },
+        {
             title: 'Christmas Cookie Dragon',
             href: 'images/dragonChristmas.png',
             description: 'Commissioned from Appledapple!',
@@ -96,6 +102,12 @@ export default {
             title: 'Neon Badge',
             href: 'images/2019/1-JudahNeonBadge.jpg',
             description: 'Badge from https://twitter.com/Lumaberry',
+            type: "feral",
+        },
+        {
+            title: 'TwoKinds Discord Server Group Picture 2019',
+            href: 'images/2019/Judah-Moon_ForPosting.png',
+            description: 'Group picture of the Discord group!',
             type: "feral",
         },
         {
