@@ -107,7 +107,7 @@ export default {
         {
             title: 'TwoKinds Discord Server Group Picture 2019',
             href: 'images/2019/Judah-Moon_ForPosting.png',
-            description: 'Group picture of the Discord group!',
+            description: 'Group picture of the Discord group! Thank you Neon!',
             type: "feral",
         },
         {
@@ -127,6 +127,18 @@ export default {
             href: 'images/2020/OtherEric_CookieDragon_Commish.png',
             description: 'From TheOtherEric. December 2020',
             type: "anthro",
+        },
+        {
+            title: 'Metal Emotes!',
+            href: 'images/dragon/2021/metal_emotes1.png',
+            description: 'Emotes from Metal.',
+            type: "feral",
+        },
+        {
+            title: 'More Metal Emotes!',
+            href: 'images/dragon/2021/metal_emotes2.jpg',
+            description: 'More Emotes from Metal.',
+            type: "feral",
         },
 
     ],
