@@ -140,6 +140,23 @@ export default {
             description: 'More Emotes from Metal.',
             type: "feral",
         },
-
+        {
+            title: 'Gift Art From Neon Mitsumi',
+            href: 'images/dragon/2022/2022-06-CookieDragon-NeonGiftArt.png',
+            description: 'Gift art from Neon Mitsumi! Thank you!',
+            type: "feral",
+        },
+        {
+            title: 'Little Dragon Commission',
+            href: 'images/dragon/2022/cookieLittleDragon-2022-07.png',
+            description: 'Lil Dragon Commision from Hexephre! https://hexephre.carrd.co/',
+            type: "feral",
+        },
+        {
+            title: 'Gift Art From Iliar',
+            href: 'images/dragon/2022/2022-09-iliarGift.png',
+            description: 'A gift from Iliar! Thank you!',
+            type: "anthro",
+        },
     ],
 };
