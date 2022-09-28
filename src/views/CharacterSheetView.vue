@@ -8,19 +8,19 @@
         {{val.id}} - {{val.value}}
       </li>
     </ul>
-    <DragonGallery :types="character.Types" :images="character.Images" />
+    <DragonLightGallery :types="character.Types" :images="character.Images" />
 
 </div>
 </template>
 
 <script>
-import DragonGallery from '../DragonGallery.vue'
+import DragonLightGallery from '../components/DragonLightGallery.vue'
 
 
 export default {
   name: 'CharacterSheet',
   components: {
-      DragonGallery
+      DragonLightGallery
   },
   props: ['character'],
   data: function() {

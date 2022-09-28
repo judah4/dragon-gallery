@@ -1,5 +1,6 @@
+
 <template>
-    <div class="container">
+  <div class="container">
       <div v-for="(character, index) in charFiltered" v-bind:key="index">
         <router-link v-bind:to="character.Route">{{character.Name}}</router-link>
       </div>
@@ -7,7 +8,6 @@
 </template>
 
 <script>
-
 
 export default {
   name: 'Home',
@@ -37,8 +37,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
