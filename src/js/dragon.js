@@ -52,12 +52,6 @@ export default {
             description: 'Commissioned from Appledapple!',
             type: "feral",
         },
-        /*{
-            title: 'Old Cookie Dragon Games Logo',
-            href: 'images/cookieDragonGames_RGB.png',
-            description: 'The old logo for my game stuff',
-            type: "feral",
-        },*/
         {
             title: 'Halloween Cookie Dragon',
             href: 'images/holloweenDragon.png',
@@ -149,7 +143,7 @@ export default {
         {
             title: 'Little Dragon Commission',
             href: 'images/dragon/2022/cookieLittleDragon-2022-07.png',
-            description: 'Lil Dragon Commision from Hexephre! https://hexephre.carrd.co/',
+            description: 'Lil Dragon Commision from Hexephre! <a href="https://hexephre.carrd.co/">https://hexephre.carrd.co/</a>',
             type: "feral",
         },
         {
