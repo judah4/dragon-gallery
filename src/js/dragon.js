@@ -152,5 +152,11 @@ export default {
             description: 'A gift from Iliar! Thank you!',
             type: "anthro",
         },
+        {
+            title: 'Gift Art From Iliar',
+            href: 'images/dragon/2022/2022-NextXmas.png',
+            description: 'A Christmas gift from Nextament! Thank you!',
+            type: "feral",
+        }
     ],
 };
