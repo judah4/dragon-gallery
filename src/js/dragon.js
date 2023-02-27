@@ -153,9 +153,15 @@ export default {
             type: "anthro",
         },
         {
-            title: 'Gift Art From Nextament',
+            title: 'Christmas Gift Art From Nextament',
             href: 'images/dragon/2022/2022-NextXmas.png',
             description: 'A Christmas gift from Nextament! Thank you!',
+            type: "feral",
+        },
+        {
+            title: 'Gift Birthday Art From Nextament',
+            href: 'images/dragon/2023/2023-02-Dragon-NextBirthday.png',
+            description: 'A birthday gift from Nextament! Thank you!',
             type: "feral",
         }
     ],
