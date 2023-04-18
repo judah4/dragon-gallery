@@ -113,7 +113,7 @@ export default {
         {
             title: 'Dragon Emotes',
             href: 'images/2020/frostDragonEmotes.jpg',
-            description: 'From https://twitter.com/Elegant_frost. March 2020',
+            description: 'From https://twitter.com/Elegantlyfrost. March 2020',
             type: "feral",
         },
         {
