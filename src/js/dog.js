@@ -1,22 +1,20 @@
 
 export default {
-    Name: "Evelyn Feld",
+    Name: "Gwendolyn Feld",
     //name ideas
     /*
-    Evelyn
+    Gwendolyn
+    Melody
     Zoe
     Madeline
-    Melody
     Norah
     Freya
     Vera
-    Gwendolyn
     */
 
    //Last names
     /*
     Vincent
-    Vaughan
     Torres
     Cook
     Ward

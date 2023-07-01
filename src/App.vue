@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-      <RouterLink to="/"><h1>Judah's Dragon Gallery</h1></RouterLink>
+      <RouterLink to="/"><h1>Judah's Original Characters Gallery</h1></RouterLink>
   </header>
 
   <RouterView />
