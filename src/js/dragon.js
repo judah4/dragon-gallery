@@ -163,6 +163,12 @@ export default {
             href: 'images/dragon/2023/2023-02-Dragon-NextBirthday.png',
             description: 'A birthday gift from Nextament! Thank you!',
             type: "feral",
+        },
+        {
+            title: 'Victory Sign Commission',
+            href: 'images/dragon/2023/2023-07-ScruffyBrush-CookieDragonVictory.png',
+            description: 'A commission from <a href="https://meow.social/@ScruffyBrush" >ScruffyBrush (https://meow.social/@ScruffyBrush). Foxis is doing the victory sign.',
+            type: "anthro",
         }
     ],
 };
