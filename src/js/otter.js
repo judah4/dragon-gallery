@@ -6,7 +6,7 @@ export default {
     Sally
     */
     Route: "/otter",
-    Description: "smol otter. Flat chest, very sleek, very athletic. In College studying... Something.",
+    Description: "smol otter. Flat chest, very sleek, very athletic. In College studying... Something (botany?).",
     Attributes: [
         { id: "Gender", value: "Female" },
         { id: "Age", value: "22" },

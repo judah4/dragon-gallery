@@ -39,8 +39,9 @@ export default {
         {
             title: 'Ref Sheet',
             href: 'images/dog/2021/CD_Ref_Sheet_Color.png',
-            description: 'Character referece',
+            description: 'Character reference',
             type: "reference",
+            year: 2021
         },
 
     ],
