@@ -214,9 +214,16 @@ export default {
       title: "Character Reference",
       href: "images/dragon/2023/2023-09-Foxis_Feral_Scales.png",
       thumb: "images/dragon/2023/2023-09-Foxis_Feral_Scales_Resized.jpg",
-      description:
-        'Gift art from Neon Mitsumi! Thank you! Here is the full version of  be found at <a href="images/dragon/2023/2023-07-Twokinds_Server_Gift_Commission_2023_HQ.png" >Twokinds Server Gift Commission</a>.',
+      description: "Character reference commission from Seth Knight.",
       type: "anthro",
+      year: 2023,
+    },
+    {
+      title: "Huevember 2023",
+      href: "images/dragon/2023/2023-10-Foxis_Huevember.png",
+      description:
+        'A commission from <a href="https://mastoart.social/@L" >L James (https://mastoart.social/@L)</a> for Huevember. The colors are vibrant.',
+      type: "feral",
       year: 2023,
     },
   ],
