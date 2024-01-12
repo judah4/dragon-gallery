@@ -226,5 +226,13 @@ export default {
       type: "feral",
       year: 2023,
     },
+    {
+      title: "Tsukinori Neon Gift Art Comission - Foxis and Adira",
+      href: "images/dragon/2024/2024-01-tsukinori-17 and 27 - CookieDragon and Adira.png",
+      description:
+        'A commission from <a href="https://www.furaffinity.net/user/tsukinori/" >Tsukinori</a> for Neon as a gift from all of us. You can view the full version at <a href="https://www.furaffinity.net/view/55104441/">Tsukinori\'s FurAffinity post.</a>',
+      type: "feral",
+      year: 2024,
+    },
   ],
 };
