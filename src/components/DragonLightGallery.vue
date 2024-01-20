@@ -53,8 +53,13 @@ export default {
 
       var imgs = [];
       for (var cnt = 0; cnt < this.images.length; cnt++) {
-        if (this.filterType == this.images[cnt].type) {
-          imgs.push(this.images[cnt]);
+        let imageData = this.images[cnt];
+        if (
+          this.filterType == imageData.type ||
+          (imageData.collections &&
+            imageData.collections.includes(this.filterType))
+        ) {
+          imgs.push(imageData);
         }
       }
 

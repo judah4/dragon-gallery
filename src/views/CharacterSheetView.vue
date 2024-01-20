@@ -1,36 +1,28 @@
 <template>
-<div>
-    <p v-if="character.Draft" ><b>Draft</b></p>
-    <h1>{{character.Name}}</h1>
-    <p>{{character.Description}}</p>
+  <div>
+    <p v-if="character.Draft"><b>Draft</b></p>
+    <h1>{{ character.Name }}</h1>
+    <p>{{ character.Description }}</p>
     <ul>
-      <li v-for="(val, index) in character.Attributes" v-bind:key=index >
-        {{val.id}} - {{val.value}}
+      <li v-for="(val, index) in character.Attributes" v-bind:key="index">
+        {{ val.id }} - {{ val.value }}
       </li>
     </ul>
     <DragonLightGallery :types="character.Types" :images="character.Images" />
-
-</div>
+  </div>
 </template>
 
 <script>
-import DragonLightGallery from '../components/DragonLightGallery.vue'
-
+import DragonLightGallery from "../components/DragonLightGallery.vue";
 
 export default {
-  name: 'CharacterSheet',
+  name: "CharacterSheet",
   components: {
-      DragonLightGallery
+    DragonLightGallery,
   },
-  props: ['character'],
-  data: function() {
-    return {
-    }
-  }
-}
+  props: ["character"],
+  data: function () {
+    return {};
+  },
+};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

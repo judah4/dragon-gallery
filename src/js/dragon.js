@@ -11,7 +11,7 @@ export default {
     { id: "Actual Height", value: "8-12 feet" },
   ],
   FeaturedImage: "/images/2018/10_12_1judahlineless.png",
-  Types: ["feral", "anthro"],
+  Types: ["feral", "anthro", "reference"],
   Images: [
     {
       title: "The Cookie Dragon",
@@ -215,7 +215,8 @@ export default {
       href: "images/dragon/2023/2023-09-Foxis_Feral_Scales.png",
       thumb: "images/dragon/2023/2023-09-Foxis_Feral_Scales_Resized.jpg",
       description: "Character reference commission from Seth Knight.",
-      type: "anthro",
+      type: "feral",
+      collections: ["feral", "reference"],
       year: 2023,
     },
     {
