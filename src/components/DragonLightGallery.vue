@@ -79,18 +79,19 @@ export default {
     onBeforeSlide: () => {
       console.log("calling before slide");
     },
-    genTitle: (imageData) => {
-      return imageData.description;
-    },
     genDescription: (imageData) => {
       var data = "<h2>" + imageData.title;
       if (imageData.year) {
         data += ` (${imageData.year})`;
       }
       data += "</h2>";
-      data += "<p>" + imageData.description + "</p>";
+      let formattedDesc = "";
+      if (imageData.description) {
+        formattedDesc = imageData.description;
+      }
+      data += "<p>" + formattedDesc + "</p>";
       return data;
-    },
+    }
   },
 };
 </script>
