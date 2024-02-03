@@ -1,36 +1,33 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
   <header>
-      <RouterLink to="/"><h1>Judah's Original Characters Gallery</h1></RouterLink>
+    <RouterLink to="/"><h1>Judah's Original Characters Gallery</h1></RouterLink>
   </header>
 
   <RouterView />
 
-  <br/>
-  <footer> 
+  <br />
+  <footer>
     <div>
       <RouterLink to="/about">About</RouterLink>
     </div>
     <div>
-      Twitter: <a href="https://twitter.com/dragonjudah" >@DragonJudah</a>
+      Mastodon:
+      <a href="https://social.foxis.dev/@foxis">@foxis@social.foxis.dev</a>
     </div>
     <div>
-      Mastodon: <a href="https://dragon.style/@cookie">@cookie@dragon.style</a>
-    </div>
-    <div>
-      Website: <a href="https://www.judahperez.com">judahperez.com</a>
+      Website:
+      <a href="https://www.inconsistent.software">inconsistent.software</a>
     </div>
   </footer>
-  
-
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
