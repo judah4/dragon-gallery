@@ -9,7 +9,7 @@
     :settings="{
       speed: 500,
       plugins: plugins,
-      licenseKey: '5C5BD778-B4CF-472F-B979-3270B90BB9F4',
+      licenseKey: '5C5BD778-B4CF-472F-B979-3270B90BB9F4'
     }"
     :onInit="onInit"
     :onBeforeSlide="onBeforeSlide"
@@ -31,74 +31,73 @@
 </template>
 
 <script>
-import Lightgallery from "lightgallery/vue";
-import lgThumbnail from "lightgallery/plugins/thumbnail";
-import lgZoom from "lightgallery/plugins/zoom";
-let lightGallery = null;
+import Lightgallery from 'lightgallery/vue'
+import lgThumbnail from 'lightgallery/plugins/thumbnail'
+import lgZoom from 'lightgallery/plugins/zoom'
+let lightGallery = null
 export default {
   components: {
-    Lightgallery,
+    Lightgallery
   },
   props: { types: Array, images: Array },
   watch: {
     filteredImages() {
       this.$nextTick(() => {
-        lightGallery.refresh();
-      });
-    },
+        lightGallery.refresh()
+      })
+    }
   },
   computed: {
     filteredImages: function () {
-      if (!this.filterType) return this.images;
+      if (!this.filterType) return this.images
 
-      var imgs = [];
+      var imgs = []
       for (var cnt = 0; cnt < this.images.length; cnt++) {
-        let imageData = this.images[cnt];
+        let imageData = this.images[cnt]
         if (
           this.filterType == imageData.type ||
-          (imageData.collections &&
-            imageData.collections.includes(this.filterType))
+          (imageData.collections && imageData.collections.includes(this.filterType))
         ) {
-          imgs.push(imageData);
+          imgs.push(imageData)
         }
       }
 
-      return imgs;
-    },
+      return imgs
+    }
   },
   data() {
     return {
       plugins: [lgThumbnail, lgZoom],
-      filterType: "",
-    };
+      filterType: ''
+    }
   },
   methods: {
     onInit: (detail) => {
-      lightGallery = detail.instance;
+      lightGallery = detail.instance
     },
     onBeforeSlide: () => {
-      console.log("calling before slide");
+      console.log('calling before slide')
     },
     genDescription: (imageData) => {
-      var data = "<h2>" + imageData.title;
+      var data = '<h2>' + imageData.title
       if (imageData.year) {
-        data += ` (${imageData.year})`;
+        data += ` (${imageData.year})`
       }
-      data += "</h2>";
-      let formattedDesc = "";
+      data += '</h2>'
+      let formattedDesc = ''
       if (imageData.description) {
-        formattedDesc = imageData.description;
+        formattedDesc = imageData.description
       }
-      data += "<p>" + formattedDesc + "</p>";
-      return data;
+      data += '<p>' + formattedDesc + '</p>'
+      return data
     }
-  },
-};
+  }
+}
 </script>
 <style lang="css">
-@import "lightgallery/css/lightgallery.css";
-@import "lightgallery/css/lg-thumbnail.css";
-@import "lightgallery/css/lg-zoom.css";
+@import 'lightgallery/css/lightgallery.css';
+@import 'lightgallery/css/lg-thumbnail.css';
+@import 'lightgallery/css/lg-zoom.css';
 
 .gallery-item {
   margin: 5px;

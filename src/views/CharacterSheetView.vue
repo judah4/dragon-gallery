@@ -13,16 +13,16 @@
 </template>
 
 <script>
-import DragonLightGallery from "../components/DragonLightGallery.vue";
+import DragonLightGallery from '../components/DragonLightGallery.vue'
 
 export default {
-  name: "CharacterSheet",
+  name: 'CharacterSheet',
   components: {
-    DragonLightGallery,
+    DragonLightGallery
   },
-  props: ["character"],
+  props: ['character'],
   data: function () {
-    return {};
-  },
-};
+    return {}
+  }
+}
 </script>
