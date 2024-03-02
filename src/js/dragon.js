@@ -233,6 +233,25 @@ export default {
       description:
         'A commission from <a href="https://www.furaffinity.net/user/tsukinori/" >Tsukinori</a> for Neon as a gift from all of us. You can view the full version at <a href="https://www.furaffinity.net/view/55104441/">Tsukinori\'s FurAffinity post.</a>',
       type: 'feral',
+      collections: ['feral', 'group'],
+      year: 2024
+    },
+    {
+      title: 'Nextament Birthday Gift Art',
+      href: 'images/dragon/2024/2024-02-nextament-foxisbday.png',
+      description:
+        'A birthday gift art from Nextament!',
+      type: 'feral',
+      collections: ['feral', 'head'],
+      year: 2024
+    },
+    {
+      title: 'Kabo Birthday Gift Art',
+      href: 'images/dragon/2024/2024-02-Kabo-Foxi.png',
+      description:
+        'A birthday gift art from Kabo Darkfields!',
+      type: 'feral',
+      collections: ['feral', 'head'],
       year: 2024
     }
   ]
