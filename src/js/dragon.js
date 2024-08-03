@@ -253,6 +253,24 @@ export default {
       type: 'feral',
       collections: ['feral', 'head'],
       year: 2024
+    },
+    {
+      title: '10 Years of Neon Mitsumi - Echo-Of-The-Sea',
+      href: 'images/dragon/2024/2024-07-FoxisByEcho-Of-The-Sea.png',
+      description:
+        'Multiverse gift art from Neon Mitsumi! Created by Echo-Of-The-Sea',
+      type: 'feral',
+      collections: ['feral', 'head'],
+      year: 2024
+    },
+    {
+      title: '10 Years of Neon Mitsumi - Kubivy',
+      href: 'images/dragon/2024/2024-07-FoxisByKubivy.png',
+      description:
+        'Multiverse gift art from Neon Mitsumi! Created by Kubivy',
+      type: 'feral',
+      collections: ['feral', 'head'],
+      year: 2024
     }
   ]
 }
