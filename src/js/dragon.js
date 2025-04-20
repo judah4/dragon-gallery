@@ -228,7 +228,7 @@ export default {
       year: 2023
     },
     {
-      title: 'Tsukinori Neon Gift Art Comission - Foxis and Adira',
+      title: 'Tsukinori Neon Gift Art Commission - Foxis and Adira',
       href: 'images/dragon/2024/2024-01-tsukinori-17 and 27 - CookieDragon and Adira.png',
       description:
         'A commission from <a href="https://www.furaffinity.net/user/tsukinori/" >Tsukinori</a> for Neon as a gift from all of us. You can view the full version at <a href="https://www.furaffinity.net/view/55104441/">Tsukinori\'s FurAffinity post.</a>',
@@ -270,6 +270,33 @@ export default {
         'Multiverse gift art from Neon Mitsumi! Created by Kubivy',
       type: 'feral',
       collections: ['feral', 'head'],
+      year: 2024
+    },
+    {
+      title: 'Character Reference',
+      href: 'images/dragon/2024/Foxis_Anthro_Armor.png',
+      thumb: 'images/dragon/2024/Foxis_Anthro_Armor.png',
+      description: 'Character reference commission from Seth Knight. (Armor)',
+      type: 'anthro',
+      collections: ['anthro', 'reference'],
+      year: 2024
+    },
+    {
+      title: 'Character Reference',
+      href: 'images/dragon/2024/Foxis_Anthro_Clothing.png',
+      thumb: 'images/dragon/2024/Foxis_Anthro_Clothing.png',
+      description: 'Character reference commission from Seth Knight. (Clothing)',
+      type: 'anthro',
+      collections: ['anthro', 'reference'],
+      year: 2024
+    },
+    {
+      title: 'Character Reference',
+      href: 'images/dragon/2024/Foxis_Anthro_Nude.png',
+      thumb: 'images/dragon/2024/Foxis_Anthro_Nude.png',
+      description: 'Character reference commission from Seth Knight. (Nude)',
+      type: 'anthro',
+      collections: ['anthro', 'reference'],
       year: 2024
     }
   ]
