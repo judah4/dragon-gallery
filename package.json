@@ -1,9 +1,7 @@
 {
   "name": "dragon-gallery3",
   "version": "0.8.0",
-  "engines": {
-    "node": ">=0.20"
-  },
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
