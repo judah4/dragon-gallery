@@ -33,3 +33,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Resize Images
+
+```
+.\scripts\imageResize.ps1 -Height 100 -MaintainRatio -ImagePath "public\images\dragon\2024\Foxis_Anthro_Clothing.png"
+```

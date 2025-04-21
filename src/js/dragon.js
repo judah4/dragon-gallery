@@ -275,7 +275,7 @@ export default {
     {
       title: 'Character Reference',
       href: 'images/dragon/2024/Foxis_Anthro_Armor.png',
-      thumb: 'images/dragon/2024/Foxis_Anthro_Armor.png',
+      thumb: 'images/dragon/2024/Foxis_Anthro_Armor_resized.png',
       description: 'Character reference commission from Seth Knight. (Armor)',
       type: 'anthro',
       collections: ['anthro', 'reference'],
@@ -284,7 +284,7 @@ export default {
     {
       title: 'Character Reference',
       href: 'images/dragon/2024/Foxis_Anthro_Clothing.png',
-      thumb: 'images/dragon/2024/Foxis_Anthro_Clothing.png',
+      thumb: 'images/dragon/2024/Foxis_Anthro_Clothing_resized.png',
       description: 'Character reference commission from Seth Knight. (Clothing)',
       type: 'anthro',
       collections: ['anthro', 'reference'],
@@ -293,7 +293,7 @@ export default {
     {
       title: 'Character Reference',
       href: 'images/dragon/2024/Foxis_Anthro_Nude.png',
-      thumb: 'images/dragon/2024/Foxis_Anthro_Nude.png',
+      thumb: 'images/dragon/2024/Foxis_Anthro_Nude_resized.png',
       description: 'Character reference commission from Seth Knight. (Nude)',
       type: 'anthro',
       collections: ['anthro', 'reference'],
