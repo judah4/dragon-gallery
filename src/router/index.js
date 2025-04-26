@@ -5,8 +5,9 @@ import CharacterSheet from '../views/CharacterSheetView.vue'
 import CookieDragon from '../js/dragon.js'
 import Doggy from '../js/dog.js'
 import Fox from '../js/fox.js'
+import Otter from '../js/otter.js'
 
-var characters = [CookieDragon, Doggy, Fox]
+var characters = [CookieDragon, Doggy, Fox, Otter]
 
 let routes = [
   { path: '/', name: 'home', component: HomeView, props: { characters: characters } },
@@ -17,16 +18,16 @@ let routes = [
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import('../views/AboutView.vue')
-  },
-  { path: CookieDragon.Route, component: CharacterSheet, props: { character: CookieDragon } }
+  }
 ]
 
 var devMode = process.env.NODE_ENV == 'development'
-if (devMode || !Doggy.Draft) {
-  routes.push({ path: Doggy.Route, component: CharacterSheet, props: { character: Doggy } })
-}
-if (devMode || !Fox.Draft) {
-  routes.push({ path: Fox.Route, component: CharacterSheet, props: { character: Fox } })
+
+for(var i = 0; i < characters.length; i++) {
+  var character = characters[i];
+  if (devMode || !character.Draft) {
+    routes.push({ path: character.Route, component: CharacterSheet, props: { character: character } })
+  }
 }
 
 const router = createRouter({

@@ -1,5 +1,5 @@
 export default {
-  Name: 'Gwendolyn Feld',
+  Name: 'Freya Feld',
   //name ideas
   /*
     Gwendolyn
