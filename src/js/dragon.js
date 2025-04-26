@@ -298,6 +298,15 @@ export default {
       type: 'anthro',
       collections: ['anthro', 'reference'],
       year: 2024
+    },
+    {
+      title: 'Nextament Birthday Gift Art',
+      href: 'images/dragon/2025/nextament-judahbday2025.png',
+      description:
+        'A birthday gift art from Nextament!',
+      type: 'anthro',
+      collections: ['anthro'],
+      year: 2025
     }
   ]
 }
