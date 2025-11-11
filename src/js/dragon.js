@@ -307,6 +307,14 @@ export default {
       type: 'anthro',
       collections: ['anthro'],
       year: 2025
+    },
+    {
+      title: 'Huevember 2025',
+      href: 'images/dragon/2025/2025_huevember_10_foxis.png',
+      description:
+        'A commission from <a href="https://mastoart.social/@L" >L James (https://mastoart.social/@L)</a> / <a href="https://l-james.com/">https://l-james.com/</a>  for Huevember. I love the use of the limited palette.',
+      type: 'feral',
+      year: 2025
     }
   ]
 }
